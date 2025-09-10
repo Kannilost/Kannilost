@@ -1,0 +1,25 @@
+name: 🟡 Pac-Man Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Täglich um Mitternacht
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate Pac-Man Graph
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: Kannilost
+
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
