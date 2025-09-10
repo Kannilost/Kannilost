@@ -10,12 +10,12 @@
 
 An expense tracker and planner built with Angular
 
-(planned) A beverage data management tool tailored for industry-specific workflows
+(planned) A beverage data management tool tailored for industry-specific workflows </br>
 </h5>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kannilost&label=Profile%20views&color=0e75b6&style=flat" alt="kannilost" /> </p>
 
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kannilost" alt="kannilost" /></a> </p>
+###
 
 <div align="center">
   <img src="https://github-readme-streak-stats-seven-azure.vercel.app/?user=Kannilost&theme=outrun&exclude_days=Sun" alt="githubstreak" />
@@ -52,3 +52,5 @@ Other: C++, Python, Git
 </picture>
 
 ###
+
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kannilost" alt="kannilost" /></a> </p>
